@@ -16,7 +16,7 @@
       </div>
         
     @else 
-            <p class="text-center text-xl font-black"> {{ $post->user->name}}:No tiene Publicaciones</p>
+            <p class="text-center text-xl font-black"> {{ auth()->user()->name}}:No tiene Publicaciones</p>
     @endif
 
 </div>
