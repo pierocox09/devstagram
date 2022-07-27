@@ -12,7 +12,7 @@
      
     </div>
     <div  class="my-10"> 
-        {{$posts->links()}}
+        {{ $posts->links('pagination::tailwind') }}
       </div>
         
     @else 
